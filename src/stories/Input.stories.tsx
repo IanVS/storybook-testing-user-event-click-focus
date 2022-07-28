@@ -1,5 +1,6 @@
 import {Input} from './Input';
-import {userEvent, within} from '@storybook/testing-library';
+import {within} from '@storybook/testing-library';
+import userEvent from '@testing-library/user-event';
 import { StoryObj } from '@storybook/react';
 
 export default {
